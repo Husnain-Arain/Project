@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="C:\Users\AJ\Desktop\0101110\Amazon-work\css\form.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Registration</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="fname">Full Name</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name">
+                </div>
+                <div class="user-input-box">
+                    <label for="fname">User Name</label>
+                    <input type="text" name="userName" id="userName" placeholder="Enter User Name">
+                </div>
+                <div class="user-input-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                </div>
+                <div class="user-input-box">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Enter Phone Number">
+                </div>
+                <div class="user-input-box">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                </div>
+                <div class="user-input-box">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="gender-detail-box">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Register" onclick="welcome()">
+            </div>
+        </form>
+    </div>
+    <script>
+        function welcome() {
+            window.open("index.html")
+        }
+    </script>
+</body>
+</html>
